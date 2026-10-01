@@ -1,0 +1,17 @@
+# canon_convert.bat MUST keep CRLF or cmd.exe misreads the script, so pin the
+# line endings rather than trusting core.autocrlf.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.md  text eol=lf
+*.py  text eol=lf
+
+# never let git touch binary assets - a rewritten .thm would stop the camera
+# recognising the thumbnail
+*.thm binary
+*.THM binary
+*.avi binary
+*.AVI binary
+*.jpg binary
+*.jpeg binary
+*.png binary
