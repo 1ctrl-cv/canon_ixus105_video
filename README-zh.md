@@ -1,4 +1,4 @@
-# canon-video
+# canon_ixus105_video
 
 [English](README.md) | 中文
 
